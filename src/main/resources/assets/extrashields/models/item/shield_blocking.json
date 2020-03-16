@@ -1,0 +1,50 @@
+{
+    "gui_light": "front",
+    "textures": {
+        "birch_shield": "extrashields:item/birch_shield"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 15, 335, 0 ],
+            "translation": [ 1, 0, -1 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 180, 355],
+            "translation": [ -8, -2, -11 ],
+            "scale": [ 1.25, 1.25, 1.25 ]
+        },
+	"thirdperson_righthand": {
+            "rotation": [ 45, 135, 0 ],
+            "translation": [ 5, 8, -6.5 ],
+            "scale": [ 1, 1, 1 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ -3, -5, 1 ], 
+            "to": [ 8, 16, 2 ], 
+            "faces": {
+                "north": { "texture": "#birch_shield", "uv": [ 0, 0, 9, 16 ] },
+                "east": { "texture": "#birch_shield", "uv": [ 0, 0, 1, 16 ], "rotation": 180 },
+                "south": { "texture": "#birch_shield", "uv": [ 0, 0, 9, 16 ] },
+                "west": { "texture": "#birch_shield", "uv": [ 0, 0, 1, 16 ], "rotation": 180 },
+                "up": { "texture": "#birch_shield", "uv": [ 0, 0, 9, 1 ] },
+                "down": { "texture": "#birch_shield", "uv": [ 0, 0, 9, 1 ] }
+            }
+        },
+        {
+            "name": "Handle",
+            "from": [ 1.5, 3, -5 ], 
+            "to": [ 3.5, 9, 1 ], 
+            "faces": {
+                "north": { "texture": "#birch_shield", "uv": [ 13, 0, 14, 4 ] },
+                "east": { "texture": "#birch_shield", "uv": [ 9, 0, 13, 4.5 ] },
+                "west": { "texture": "#birch_shield", "uv": [ 9, 0, 13, 4.5 ] },
+                "up": { "texture": "#birch_shield", "uv": [ 13, 0, 14, 4.5 ] },
+                "down": { "texture": "#birch_shield", "uv": [ 13, 0, 14, 4.5 ], "rotation": 180 }
+            }
+        }
+    ]
+}

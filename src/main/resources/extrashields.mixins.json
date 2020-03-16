@@ -1,0 +1,15 @@
+  
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "rionlion100.extrashields.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+    ],
+    "client": [
+      "PlayerEntityMixin"
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    }
+  }
