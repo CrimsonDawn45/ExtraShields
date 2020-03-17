@@ -6,24 +6,34 @@
             "translation": [ 1, 0, -1 ],
             "scale": [ 0.625, 0.625, 0.625 ]
         },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 1.5, 3, 2 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 180, 0, 0 ],
+            "translation": [ 6, -1, -7 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        },
         "firstperson_righthand": {
-            "rotation": [ 0, 180, 355],
-            "translation": [ -9, -2, -11 ],
+            "rotation": [ 0, 175, 5 ],
+            "translation": [ -7, -3, -10 ],
             "scale": [ 1.25, 1.25, 1.25 ]
         },
-	    "thirdperson_righthand": {
-            "rotation": [ 45, 135, 0 ],
-            "translation": [ 5, 5 , -9.5 ],
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 10, 0, -1.5 ],
             "scale": [ 1, 1, 1 ]
         },
         "firstperson_lefthand": {
-            "rotation": [ 0, 170, 355],
-            "translation": [ 7, -2, -11 ],
+            "rotation": [ 0, 175, 5],
+            "translation": [ 9, -3, -10 ],
             "scale": [ 1.25, 1.25, 1.25 ]
         },
         "thirdperson_lefthand": {
-            "rotation": [ 45, 135, 0 ],
-            "translation": [ 12, 0 , 0 ],
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 10, 0, 9.5 ],
             "scale": [ 1, 1, 1 ]
         }
     },
@@ -50,7 +60,7 @@
                 "east": { "texture": "#shield", "uv": [ 9, 0, 13, 4.5 ] },
                 "west": { "texture": "#shield", "uv": [ 9, 0, 13, 4.5 ] },
                 "up": { "texture": "#shield", "uv": [ 13, 0, 14, 4.5 ] },
-                "down": { "texture": "#birch_shield", "uv": [ 13, 0, 14, 4.5 ], "rotation": 180 }
+                "down": { "texture": "#shield", "uv": [ 13, 0, 14, 4.5 ], "rotation": 180 }
             }
         }
     ]
