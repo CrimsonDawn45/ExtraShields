@@ -1,0 +1,6 @@
+{
+    "parent":"extrashields:item/shield_blocking",
+    "textures":{
+        "shield":"extrashields:item/dark_oak_shield"
+    }
+}

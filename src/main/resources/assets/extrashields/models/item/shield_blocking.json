@@ -1,57 +1,26 @@
 {
-    "gui_light": "front",
-    "display": {
-        "gui": {
-            "rotation": [ 15, 335, 0 ],
-            "translation": [ 1, 0, -1 ],
-            "scale": [ 0.625, 0.625, 0.625 ]
-        },
-        "firstperson_righthand": {
-            "rotation": [ 0, 180, 355],
-            "translation": [ -9, -2, -11 ],
-            "scale": [ 1.25, 1.25, 1.25 ]
-        },
-	    "thirdperson_righthand": {
-            "rotation": [ 45, 135, 0 ],
-            "translation": [ 5, 5 , -9.5 ],
-            "scale": [ 1, 1, 1 ]
-        },
-        "firstperson_lefthand": {
-            "rotation": [ 0, 170, 355],
-            "translation": [ 7, -2, -11 ],
-            "scale": [ 1.25, 1.25, 1.25 ]
-        },
-        "thirdperson_lefthand": {
-            "rotation": [ 45, 135, 0 ],
-            "translation": [ 12, 0 , 0 ],
-            "scale": [ 1, 1, 1 ]
-        }
-    },
-    "elements": [
-        {
-            "name": "Base",
-            "from": [ -3, -5, 1 ], 
-            "to": [ 8, 16, 2 ], 
-            "faces": {
-                "north": { "texture": "#shield", "uv": [ 0, 0, 9, 16 ] },
-                "east": { "texture": "#shield", "uv": [ 0, 0, 1, 16 ], "rotation": 180 },
-                "south": { "texture": "#shield", "uv": [ 0, 0, 9, 16 ] },
-                "west": { "texture": "#shield", "uv": [ 0, 0, 1, 16 ], "rotation": 180 },
-                "up": { "texture": "#shield", "uv": [ 0, 0, 9, 1 ] },
-                "down": { "texture": "#shield", "uv": [ 0, 0, 9, 1 ] }
-            }
-        },
-        {
-            "name": "Handle",
-            "from": [ 1.5, 3, -5 ], 
-            "to": [ 3.5, 9, 1 ], 
-            "faces": {
-                "north": { "texture": "#shield", "uv": [ 13, 0, 14, 4 ] },
-                "east": { "texture": "#shield", "uv": [ 9, 0, 13, 4.5 ] },
-                "west": { "texture": "#shield", "uv": [ 9, 0, 13, 4.5 ] },
-                "up": { "texture": "#shield", "uv": [ 13, 0, 14, 4.5 ] },
-                "down": { "texture": "#birch_shield", "uv": [ 13, 0, 14, 4.5 ], "rotation": 180 }
-            }
-        }
-    ]
+	"parent": "extrashields:item/shield",
+
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [40, 135, 5],
+			"translation": [-1.0, -4.0, -2.0],
+			"scale": [1.00, 1.00, 1.00]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45, 135, 0],
+			"translation": [1.5, -5.5, 0],
+			"scale": [1, 1, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 180, -5],
+			"translation": [-6, -14, 0],
+			"scale": [1.65, 1.65, 1.65]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, -5],
+			"translation": [4, -14, 0],
+			"scale": [1.65, 1.65, 1.65]
+		}
+	}
 }

@@ -1,14 +1,14 @@
 {
     "parent":"extrashields:item/shield",
     "textures":{
-        "shield":"extrashields:item/birch_shield"
+        "shield":"extrashields:item/oak_shield"
     },
     "overrides": [
         {
             "predicate": {
                 "blocking": 1
             },
-            "model": "extrashields:item/birch_shield_blocking"
+            "model": "extrashields:item/oak_shield_blocking"
         }
     ]
 }
