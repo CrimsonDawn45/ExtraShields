@@ -1,6 +1,8 @@
 package rionlion100.extrashields;
 
+import net.minecraft.block.DispenserBlock;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Hand;
