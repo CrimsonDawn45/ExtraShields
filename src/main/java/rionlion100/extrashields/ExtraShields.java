@@ -7,6 +7,7 @@ import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.fabricmc.loader.api.FabricLoader;
+import com.brand.adabraniummod.items.ModItems;
 
 public class ExtraShields implements ModInitializer {
 
@@ -16,14 +17,14 @@ public class ExtraShields implements ModInitializer {
 		return null;
 	}	
 
-	// public void modIntegrationShields() {
-	// 	FabricLoader loader = FabricLoader.getInstance();
+	public void modIntegrationShields() {
+		FabricLoader loader = FabricLoader.getInstance();
 
-	// 	if (loader.isModLoaded("adabraniummod")) {
-	// 		registerShield("vibranium",10000,ModItems.VIBRANIUM_INGOT);
-	// 		registerShield("adamantium",50000,ModItems.ADAMANTIUM_INGOT);
-	// 	}
-	// }
+		if (loader.isModLoaded("adabraniummod")) {
+			registerShield("vibranium",128,ModItems.VIBRANIUM_INGOT);
+			registerShield("adamantium", 128, ModItems.ADAMANTIUM_INGOT);
+		}
+	}
 
 	@Override
 	public void onInitialize() {
@@ -33,8 +34,8 @@ public class ExtraShields implements ModInitializer {
 		registerShield("dark_oak",128,Items.DARK_OAK_PLANKS);
 		registerShield("jungle",128,Items.JUNGLE_PLANKS);
 		registerShield("spruce",128,Items.SPRUCE_PLANKS);
-		registerShield("gold",424,Items.GOLD_INGOT);
+		registerShield("gold",256,Items.GOLD_INGOT);
 		registerShield("diamond",612,Items.DIAMOND);
-		//modIntegrationShields();
+		modIntegrationShields();
 	}
 }
