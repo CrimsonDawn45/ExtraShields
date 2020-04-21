@@ -17,6 +17,7 @@ public class CustomShieldItem extends Item {
         this.addPropertyGetter(new Identifier("blocking"), (stack, world, entity) -> {
             return entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F;
         });
+        DispenserBlock.registerBehavior(this, ArmorItem.DISPENSER_BEHAVIOR);
     }
 
     @Override
