@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:birch_planks"
+        },
+        "O": {
+            "item": "minecraft:birch_log"
+        }
+    },
+    "result": {
+        "item": "extrashields:birch_shield",
+        "count": 1
+    }
+}

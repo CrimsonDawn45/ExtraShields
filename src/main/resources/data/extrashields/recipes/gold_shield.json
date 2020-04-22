@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "O": {
+            "item": "minecraft:nether_bricks"
+        }
+    },
+    "result": {
+        "item": "extrashields:gold_shield",
+        "count": 1
+    }
+}

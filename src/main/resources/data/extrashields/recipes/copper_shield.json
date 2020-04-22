@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "c:copper_ingot"
+        },
+        "O": {
+            "item": "c:copper_block"
+        }
+    },
+    "result": {
+        "item": "extrashields:copper_shield",
+        "count": 1
+    }
+}

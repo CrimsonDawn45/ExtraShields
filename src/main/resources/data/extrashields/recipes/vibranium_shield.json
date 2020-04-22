@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "adabraniummod:vibranium_ingot"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "extrashields:vibranium_shield",
+        "count": 1
+    }
+}

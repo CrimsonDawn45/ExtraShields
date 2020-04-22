@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:jungle_planks"
+        },
+        "O": {
+            "item": "minecraft:jungle_log"
+        }
+    },
+    "result": {
+        "item": "extrashields:jungle_shield",
+        "count": 1
+    }
+}
