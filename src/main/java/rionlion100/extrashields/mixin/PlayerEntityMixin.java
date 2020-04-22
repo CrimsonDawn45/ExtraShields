@@ -26,7 +26,7 @@ class PlayerEntityMixin{
         else
             return Items.AIR;
     }
-    @Redirect(method = "disableShield(B)V", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/player/ItemCooldownManager;set(Lnet/minecraft/item/Item;I)V"))
+    @Redirect(method = "disableShield(Z)V", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/player/ItemCooldownManager;set(Lnet/minecraft/item/Item;I)V"))
     public void shieldDisableMixin(ItemCooldownManager itemCooldownManager, Item shield, int duration){
         ItemStack mainHandItem = ((PlayerEntity)(Object)this).getMainHandStack();
         ItemStack offHandItem = ((PlayerEntity)(Object)this).getOffHandStack();
