@@ -20,6 +20,10 @@ repositories {
         name = "CurseForge"
         url = "https://minecraft.curseforge.com/api/maven/"
     }
+	maven {
+      name = "Cotton"
+      url = "http://server.bbkr.space:8081/artifactory/libs-release/"
+  }
 }
 
 dependencies {
@@ -27,7 +31,8 @@ dependencies {
     mappings "net.fabricmc:yarn:1.15.2+build.14:v2"
     modImplementation "net.fabricmc:fabric-loader:0.7.8+build.184"
     modImplementation "net.fabricmc.fabric-api:fabric-api:0.4.32+build.292-1.15"
-	modCompile "curse.maven:adabranium:2877863";
+	modImplementation "curse.maven:adabranium:2877863";
+	modImplementation "io.github.cottonmc:cotton-resources:${cotton_resources_version}"
 }
 
 processResources {

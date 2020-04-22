@@ -10,6 +10,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.UseAction;
+import rionlion100.extrashields.CustomShieldItem;
+import rionlion100.extrashields.ExtraShields;
+import rionlion100.extrashields.ExtraShields.ShieldConstructor;
 
 @Mixin(PlayerEntity.class)
 class PlayerEntityMixin{
@@ -32,7 +35,16 @@ class PlayerEntityMixin{
             shieldItem = mainHandItem.getItem();
         }
         else if(offHandItem.getUseAction() == UseAction.BLOCK){
-            shieldItem = mainHandItem.getItem();
+            shieldItem = offHandItem.getItem();
+            
+        }
+        if (shieldItem instanceof CustomShieldItem){
+            for (int i = 0; i < ExtraShields.shieldList.size(); i++){
+                ShieldConstructor shieldInList = ExtraShields.shieldList.get(i);
+                if (shieldItem.getName().asString().contains(shieldInList.getType())){
+                    duration=shieldInList.getCooldown();
+                }
+            }
         }
         itemCooldownManager.set(shieldItem, duration);
     }

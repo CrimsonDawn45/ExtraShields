@@ -13,6 +13,7 @@ import net.minecraft.world.World;
 
 public class CustomShieldItem extends Item {
     public Item repairResource;
+    public int cooldown;
     public CustomShieldItem(Item.Settings settings, Item repairResource) {
         super(settings);
         this.repairResource = repairResource;

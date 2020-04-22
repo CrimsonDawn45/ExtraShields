@@ -1,5 +1,6 @@
 {
 	"parent": "extrashields:item/shield",
+	"gui-light":"front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [40, 135, 5],
