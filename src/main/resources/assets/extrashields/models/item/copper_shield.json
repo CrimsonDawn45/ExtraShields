@@ -1,0 +1,14 @@
+{
+    "parent":"extrashields:item/shield",
+    "textures":{
+        "shield":"extrashields:item/copper_shield"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "extrashields:item/copper_shield_blocking"
+        }
+    ]
+}

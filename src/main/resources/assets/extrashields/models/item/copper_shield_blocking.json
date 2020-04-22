@@ -1,0 +1,6 @@
+{
+    "parent":"extrashields:item/shield_blocking",
+    "textures":{
+        "shield":"extrashields:item/copper_shield"
+    }
+}
