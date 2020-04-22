@@ -48,7 +48,7 @@ public class ExtraShields implements ModInitializer {
 
 	public static final ItemGroup MAIN_GROUP = FabricItemGroupBuilder.create(
 		new Identifier(MOD_ID, "general"))
-		.icon(() -> new ItemStack(shieldMap.get(shieldList.get(1))))
+		.icon(() -> new ItemStack(shieldMap.get(shieldList.get(0))))
 		.appendItems(stacks ->
 		{
 			for (int i = 0; i < shieldList.size(); i++){
