@@ -1,5 +1,5 @@
 {
-    "parent":"extrashields:item/shield",
+    "parent":"fabricshieldlib:item/template_shield",
     "textures":{
         "shield":"extrashields:item/adamantium_shield"
     },

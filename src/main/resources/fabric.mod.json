@@ -22,14 +22,10 @@
       "rionlion100.extrashields.ExtraShields"
     ]
   },  
-  "mixins": [
-    "extrashields.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.7.2",
     "fabric": "*",
-    "minecraft": "1.15.x" 
+    "minecraft": "1.16.x" 
    },
   "suggests": {
     "flamingo": "*"

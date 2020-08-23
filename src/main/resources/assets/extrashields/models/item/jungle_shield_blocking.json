@@ -1,5 +1,5 @@
 {
-    "parent":"extrashields:item/shield_blocking",
+    "parent":"fabricshieldlib:item/template_shield_blocking",
     "textures":{
         "shield":"extrashields:item/jungle_shield"
     }
