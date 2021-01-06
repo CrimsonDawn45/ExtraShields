@@ -8,5 +8,4 @@ public class CustomShield extends AbstractShield {
     public CustomShield(Settings settings, int cooldownTicks, int durability, Item... repairItems) {
         super(settings, cooldownTicks, durability, repairItems);
     }
-    
 }
